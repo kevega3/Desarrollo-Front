@@ -1,0 +1,93 @@
+body{
+    position: relative;
+    box-sizing: border-box;
+    background: #ebebeb;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.containerMenu{
+    background: #5D45AA;
+    height: 43px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+.lista{
+    display: flex;
+    list-style: none;
+    text-align: right;
+    position: absolute;
+    right: 31px;
+    margin: 10px;;
+    -webkit-box-shadow: -2px 2px 21px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 21px -10px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 21px -10px rgba(0,0,0,0.75);
+}
+.lista li a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    margin-right : 10px;
+    color: white;
+}
+
+.active{
+    text-decoration: none;
+    background: #f830a8;
+    color: white;
+    padding: 13px;
+    -webkit-box-shadow: -2px 2px 21px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 21px -7px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 21px -7px rgba(0,0,0,0.75);
+}
+
+.divlog{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fooder{
+    background: #5D45AA;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.fooder h6{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.table{
+    margin-top: 20px;
+}
+.Titulos{
+    background: #493294;
+    color: white;
+}
+.container h2{  
+    margin-top: 10px;
+}
+
+.Center{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+
+}
+.Titulosalida{
+    color: #493294;
+    font-weight: bold;
+    padding-top: 10px;
+}
